@@ -32,11 +32,16 @@
     nav {
         flex-direction: column;
     }
-
+.banner-image{
+    margin-top: 20px;
+}
 
     .banner-image img {
-        width: 80%;
-        margin-top: 20px;
+
+        width: 80vw;
+        margin-top: 30px;
+        margin: 0px auto;
+
 }
 
 
@@ -45,8 +50,8 @@
 }
 
 .features-img{
-    height: 200px;
-    width: 200px;
+
+   width: 35vw;
 }
 
 
@@ -57,7 +62,7 @@
 
 }
  .more-column2 img {
-    width: 350px;
+    width: 50vw;
     text-align: center;
 }
 
