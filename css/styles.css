@@ -1,0 +1,285 @@
+    /* fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800&display=swap');
+
+
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        font-family: 'work sans';
+    }
+
+
+    /* global shared styles */
+    :root {
+        --primary-text-color: #131313;
+        --secondary-text-color: #727272;
+        --background-color1: #fff4e6;
+    }
+
+
+    .-section {
+        width: 80%;
+    }
+
+    .features-container,
+    .more-features-container {
+        width: 80%;
+    }
+
+
+    h3 {
+
+        color: var(--primary-text-color);
+
+        font-weight: 700;
+        font-size: 4rem;
+        font-family: 'work sans';
+
+    }
+
+
+    h4 {
+        color: var(--primary-text-color);
+        font-size: 2.8rem;
+        font-weight: 700;
+        font-family: 'work sans';
+    }
+
+    h5 {
+        color: var(--primary-text-color);
+
+        font-size: 20px;
+
+        font-weight: 600;
+
+    }
+
+
+    p {
+        color: var(--secondary-text-color);
+
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 20px;
+        margin-bottom: 32px;
+        font-family: 'work sans';
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .left {
+        text-align: left
+    }
+
+
+
+
+
+
+
+
+    /* body start */
+
+    /* nav & banner section*/
+
+    header {
+        background-color: var(--background-color1);
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        width: 80%;
+
+    }
+
+
+
+    nav>ul {
+        display: flex;
+    }
+
+    nav li {
+        list-style: none;
+        margin-right: 30px;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: #424242;
+    }
+
+
+    .header-section {
+        margin: 0 auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .btn-primary {
+        border-radius: 8px;
+        color: #FFF;
+        font-size: 1.25rem;
+        background: #FF900E;
+        padding: 20px 25px;
+        color: #FFF;
+        cursor: pointer;
+        border: 0;
+
+    }
+
+    .button-div {
+
+
+        text-align: center;
+    }
+
+
+
+    .banner-image img {
+        width: 1005px;
+        margin-top: 50px;
+
+    }
+
+    /* featured section */
+
+
+    .gray {
+        color: #727272;
+
+        font-size: 45px;
+
+        font-weight: 500;
+    }
+
+    .bold {
+        color: var(--primary-text-color);
+        font-size: 45px;
+
+        font-weight: 700;
+    }
+
+    .yellow {
+        color: #FF900E;
+        font-size: 45px;
+
+        font-weight: 700;
+    }
+
+
+    .features-container {
+        display: flex;
+        margin: 0px auto;
+        margin-top: 60px;
+
+    }
+
+
+    .features-cloumn1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .features-img {
+        height: 260px;
+        width: 260px;
+    }
+
+    .features-cloumn2 {
+        padding-left: 30px;
+
+        margin: auto auto;
+
+    }
+
+    /* --.more-features-container-- */
+
+
+    .more-features-container {
+        display: flex;
+        margin: 0px auto;
+    }
+        .more-features{
+
+        
+        padding-top: 50px;
+
+    }
+    .more-column2{
+    display: block;
+    padding-left: 0px;
+
+
+    }
+    .more-column2 img {
+        width: 485px;
+        padding-left: 70px;
+
+
+    }
+
+    .more-features-container {
+        margin-top: 40px;
+    }
+
+    .more-column1>p {
+        border-left: #FF900E solid 5px;
+        padding-left: 30px;
+
+    }
+
+ .f-box{
+
+        padding: 20px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    }
+
+
+
+    .ten-years-badge{
+        border-radius: 8px;
+        background: #FF900E;
+        color: #FFF;
+        width: 200px;
+        padding: 40px 20px;
+        text-align: center;
+        position: relative;
+        bottom: 100px;
+        height: 50px;
+        
+    }
+    
+    .ten-years-badge h2{
+        font-size: 2.5rem;
+        margin: 0;
+        margin-top: -20px;
+    }
+    
+    .ten-years-badge p{
+        font-size: 1rem;
+        color: #FFF;
+        margin-top: -1px;
+    }
+
+
+
+   
