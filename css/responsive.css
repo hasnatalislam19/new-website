@@ -2,12 +2,27 @@
 
  @media screen and (max-width:576px) {
 
+    .-section{
+        width: 80%;
+    }
+    .-container{
+        width: 80%;
+    }
+    .features-cloumn2{
+    padding-top: 20px;
+    }
+
+
+
+    h3,h4, p,.features-cloumn2{
+    text-align: center;
+    }
     h3 {
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 
     h4 {
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 
 
@@ -23,6 +38,9 @@
 }
 
 
+.features-container {
+    flex-direction: column;
+}
 
 
 
