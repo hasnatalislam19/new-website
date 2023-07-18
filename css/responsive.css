@@ -67,8 +67,18 @@
 
  @media screen and (min-width:577px) and (max-width: 960px) {
 
+    .banner-image img {
+        width: 80%;
+        margin-top: 20px;
+}
 
-
-
+.features-img{
+    height: 200px;
+    width: 200px;
+}
+.more-column2 img {
+    width: 300px;
+    text-align: center;
+}
 
  }
